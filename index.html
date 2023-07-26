@@ -40,7 +40,7 @@
 <body class="font-lato">
     <header class="max-w-screen-xl mx-auto">
         <!-- navbar start -->
-        <nav class="">
+        <nav class="my-11">
             <div class="navbar  bg-common-color rounded-full ">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -59,8 +59,8 @@
                             <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-                    <div class="hidden text-xl font-medium text-white lg:flex">
-                        <ul class="menu menu-horizontal px-1">
+                    <div class="hidden  lg:flex">
+                        <ul class="menu menu-horizontal text-xl font-medium text-white  px-1 ">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -69,21 +69,110 @@
                     </div>
 
                 </div>
-                <a href=""><img src="./images/logo.png" alt="logo" class="w-3/4 " ></a>
+                <a href=""><img src="./images/logo.png" alt="logo" class="w-3/4 "></a>
                 <div class="">
-                    
+
                     <a class="btn btn-ghost normal-case lg:text-4xl text-white font-bold">Fruit Burst</a>
                 </div>
 
                 <div class=" hidden md:flex md:flex-row navbar-end">
-                    <input class="input input-bordered px-4 " placeholder="Search here "/><button type="submit"><i class="fa fa-search mx-3"></i></button>  
-                    
+                    <input class="input input-bordered px-6 mx-4 " placeholder="Search here " /><i
+                        class="fa-solid fa-magnifying-glass cursor-pointer px-9 absolute"></i>
                 </div>
             </div>
         </nav>
 
+        <!-- banner part -->
+        <section>
+            <div class="carousel relative text-center  w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./images/banner1.png" class="w-full opacity-70 mix-blend-darken" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-ghost">❮</a>
+                        <a href="#slide2" class="btn btn-ghost">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full opacity-50 mix-blend-darken" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-ghost">❮</a>
+                        <a href="#slide3" class="btn btn-ghost">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full opacity-75" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-ghost">❮</a>
+                        <a href="#slide4" class="btn btn-ghost">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full opacity-50" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-ghost">❮</a>
+                        <a href="#slide1" class="btn btn-ghost">❯</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex justify-center">
+                <div class="absolute top-1/2 text-center -mt-7">
+                    <h1 class=" text-2xl md:text-7xl text-center pt-0 text-white font-extrabold">Exotic tastes at your
+                        <br> doorstep
+                    </h1>
+                    <p class="text-base md:text-xl md:font-medium md:mt-4 md:mb-7 text-white">We supply highly quality
+                        organic products</p>
+                    <button
+                        class="btn-error md:text-xl md:font-extrabold text-white rounded-lg md:px-8 md:py-4 hover:bg-gray-500 duration-75 ">Shop
+                        Now</button>
+                </div>
+            </div>
+
+        </section>
+
     </header>
-    <main>
+    <main class="max-w-screen-xl mx-auto">
+        <!-- deal of the day -->
+        <section class="flex md:justify-between flex-col md:flex-row ">
+            <!-- section title -->
+            <div class="mt-24 mb-11">
+                <h3 class="text-2xl md:text-6xl md:font-extrabold py-5">Deal of the day</h3>
+                <p class="text-base font-medium md:w-3/5 text-[#121212]">Contrary to popular belief, is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div> 
+
+            <div class="flex-1 flex items-center ">
+                <!-- countdown -->
+                <div class="grid grid-flow-col  gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col text-base font-medium capitalize">
+                        <span class="countdown font-lato text-5xl font-extrabold">
+                            <span style="--value:15;"></span> :
+                        </span>
+                        days
+                    </div>
+                    <div class="flex flex-col text-base font-medium capitalize ">
+                        <span class="countdown font-lato text-5xl font-extrabold">
+                            <span style="--value:10;"></span> :
+                        </span>
+                        hours
+                    </div>
+                    <div class="flex flex-col text-base font-medium capitalize ">
+                        <span class="countdown font-lato text-5xl font-extrabold">
+                            <span style="--value:24;"></span> :
+                        </span>
+                        min
+                    </div>
+                    <div class="flex flex-col text-base font-medium capitalize ">
+                        <span class="countdown font-lato text-5xl font-extrabold">
+                            <span style="--value:41;"></span>
+                        </span>
+                        sec
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- deal of the day end -->
 
     </main>
     <footer>
