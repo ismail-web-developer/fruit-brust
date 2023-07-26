@@ -86,11 +86,13 @@
         <section>
             <div class="carousel relative text-center  w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./images/banner1.png" class="w-full opacity-70 mix-blend-darken" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-ghost">❮</a>
-                        <a href="#slide2" class="btn btn-ghost">❯</a>
-                    </div>
+                    
+                        <img src="./images/banner1.png" class="w-full opacity-70 mix-blend-darken" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-ghost">❮</a>
+                            <a href="#slide2" class="btn btn-ghost">❯</a>
+                        </div>
+                    
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./images/banner2.png" class="w-full opacity-50 mix-blend-darken" />
@@ -129,12 +131,20 @@
                 </div>
             </div>
 
+            <div class="flex gap-8 justify-center hidden lg:flex bg-slate-50 rounded-xl absolute bottom-8 left-96">
+                <img src="./images/fruit1.png" alt="fruit">
+                <img src="./images/fruit2.png" alt="fruit">
+                <img src="./images/fruit3.png" alt="fruit">
+                <img src="./images/fruit4.png" alt="fruit">
+                <img src="./images/fruit5.png" alt="fruit">
+            </div>
+
         </section>
 
     </header>
     <main class="max-w-screen-xl mx-auto">
         <!-- deal of the day -->
-        <section class="flex md:justify-between flex-col md:flex-row ">
+        <section class="flex md:justify-between flex-col md:flex-row my-16 ">
             <!-- section title -->
             <div class="mt-24 mb-11">
                 <h3 class="text-3xl md:text-6xl md:font-extrabold py-5">Deal of the day</h3>
@@ -185,6 +195,10 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full">
+                            <div class="divider"></div>
+                        </div>
+
                         <p>Apples</p>
                         <div>
                             <!-- ratings -->
@@ -222,8 +236,8 @@
                                     </div>
                                     <div>
                                         <button
-                                            class="btn bg-common-color text-white hover:bg-gray-500 duration-">Close</button>
-                                        <button class="btn bg-common-color text-white hover:bg-gray-500 duration-">Buy
+                                            class="btn bg-common-color rounded-lg rounded-lg text-white hover:bg-gray-500 duration-">Close</button>
+                                        <button class="btn bg-common-color rounded-lg rounded-lg text-white hover:bg-gray-500 duration-">Buy
                                             Now</button>
                                     </div>
 
@@ -244,6 +258,9 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full">
+                            <div class="divider"></div>
+                        </div>
                         <p>Orange</p>
                         <div>
                             <!-- ratings -->
@@ -280,8 +297,8 @@
                                     </div>
                                     <div>
                                         <button
-                                            class="btn bg-common-color text-white hover:bg-gray-500 duration-">Close</button>
-                                        <button class="btn bg-common-color text-white hover:bg-gray-500 duration-">Buy
+                                            class="btn bg-common-color rounded-xl text-white hover:bg-gray-500 duration-">Close</button>
+                                        <button class="btn bg-common-color rounded-xl text-white hover:bg-gray-500 duration-">Buy
                                             Now</button>
                                     </div>
 
@@ -302,6 +319,9 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full">
+                            <div class="divider"></div>
+                        </div>
                         <p>Red Dragon</p>
                         <div>
                             <!-- ratings -->
@@ -338,8 +358,8 @@
                                     </div>
                                     <div>
                                         <button
-                                            class="btn bg-common-color text-white hover:bg-gray-500 duration-">Close</button>
-                                        <button class="btn bg-common-color text-white hover:bg-gray-500 duration-">Buy
+                                            class="btn bg-common-color rounded-lg text-white hover:bg-gray-500 duration-">Close</button>
+                                        <button class="btn bg-common-color rounded-lg text-white hover:bg-gray-500 duration-">Buy
                                             Now</button>
                                     </div>
                                     <div class="modal-action">
@@ -359,6 +379,10 @@
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <div class="flex flex-col w-full">
+                            <div class="divider"></div>
+                        </div>
+
                         <p>Banana</p>
                         <div>
                             <!-- ratings -->
@@ -395,8 +419,8 @@
                                     </div>
                                     <div>
                                         <button
-                                            class="btn bg-common-color text-white hover:bg-gray-500 duration-">Close</button>
-                                        <button class="btn bg-common-color text-white hover:bg-gray-500 duration-">Buy
+                                            class="btn bg-common-color rounded-lg text-white hover:bg-gray-500 duration-">Close</button>
+                                        <button class="btn bg-common-color rounded-lg text-white hover:bg-gray-500 duration-">Buy
                                             Now</button>
                                         <div class="modal-action">
                                             <!-- if there is a button in form, it will close the modal -->
@@ -496,7 +520,8 @@
         <section>
             <div class="text-center mx-auto my-20 ">
                 <h1 class="mb-5 text-5xl font-extrabold text-black">Why Choose Us</h1>
-                <p class="mb-5 md:w-3/6 mx-auto text-base font-medium text-[#121212]">Contrary to popular belief, is not simply random text. It has
+                <p class="mb-5 md:w-3/6 mx-auto text-base font-medium text-[#121212]">Contrary to popular belief, is not
+                    simply random text. It has
                     roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </p>
             </div>
@@ -513,7 +538,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">Dedicated Team</h2>
                         <hr class="">
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
 
                 </div>
@@ -524,7 +550,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">Fresh is Best</h2>
                         <hr>
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
 
                 </div>
@@ -535,7 +562,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">Gift Certificates</h2>
                         <hr>
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
 
                 </div>
@@ -552,7 +580,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">Integrated Supplier</h2>
                         <hr>
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
                     <div>
                         <p><i class="fa-solid fa-people-group my-7"></i></p>
@@ -563,7 +592,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">Sustainable Practice</h2>
                         <hr>
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
                     <div>
                         <p><i class="fa-solid fa-people-group my-7"></i></p>
@@ -574,7 +604,8 @@
                     <div>
                         <h2 class="text-2xl font-extrabold text-black my-7">The Benefits Only</h2>
                         <hr>
-                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-base font-medium text-[#121212]">Professional employees are there for you to pick
+                            the most amazing and fresh fruits.</p>
                     </div>
                     <div>
                         <p><i class="fa-solid fa-people-group my-7"></i></p>
@@ -591,7 +622,7 @@
 
 
     </main>
-    <footer class="footer footer-center mt-10 p-10 bg-[#121212] text-white text-base-content rounded">
+    <footer class="footer footer-center mt-2 p-10 bg-[#121212] text-white text-base-content rounded">
         <div class="flex flex-col md:flex-row ">
             <a href=""><img src="./images/logo.png" alt="logo"></a>
             <h2 class="text-lg md:text-4xl font-extrabold">Fruit Burst</h2>
